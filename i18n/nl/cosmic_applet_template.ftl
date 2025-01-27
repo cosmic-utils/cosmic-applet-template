@@ -1,0 +1,1 @@
+example-row = Voorbeeld regel
