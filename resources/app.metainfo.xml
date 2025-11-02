@@ -8,10 +8,12 @@
   <icon type="remote" width="64" height="64" scale="1">
     {{ repository-url }}/raw/main/resources/icons/hicolor/scalable/apps/icon.svg
   </icon>
+  <description>
+    <p>{{ description }}</p>
+  </description>
   <url type="vcs-browser">{{ repository-url }}</url>
   <launchable type="desktop-id">{{ appid }}.desktop</launchable>
   <provides>
-    <id>{{ appid }}</id>
     <binaries>
       <binary>{{ project-name }}</binary>
     </binaries>
@@ -32,4 +34,3 @@
   </keywords>
   <content_rating type="oars-1.1" />
 </component>
-
