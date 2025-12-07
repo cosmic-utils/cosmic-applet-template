@@ -14,9 +14,7 @@
   <url type="vcs-browser">{{ repository-url }}</url>
   <launchable type="desktop-id">{{ appid }}.desktop</launchable>
   <provides>
-    <binaries>
-      <binary>{{ project-name }}</binary>
-    </binaries>
+    <id>com.system76.CosmicApplet</id>
   </provides>
   <requires>
     <display_length compare="ge">360</display_length>
